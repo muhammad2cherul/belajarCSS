@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-shadow</title>
+
+    <style>
+        nav {
+            display: flex;
+            gap: 4rem;
+            margin: 50px auto;
+        }
+        .pertama { 
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin-top: 50px; 
+            box-shadow: 0px 20px 10px -10px rgba(0, 0, 0, .75);
+            transition: .3s;
+        }
+
+        .pertama:hover {
+            box-shadow: 0px 50px 10px -30px rgba(0, 0, 0, .45);
+            margin-top: 40px;
+        
+
+        }
+
+        .kedua {
+            width: 400px;
+            height: 400px;
+            background-color: #ea3;
+            opacity: .6;
+            /* transparansi nilai 0-1 */
+          
+            box-shadow: 30px 10px 60px 40px rgba(0, 0, 0, .75);
+            /* kiri/kanan bawah/atas blur size/spread-bayangan warna */
+        }
+
+        .ketiga {
+            width: 200px;
+            height: 200px;
+            background-color: lightcoral;
+            box-shadow: inset 0px 0px 0px 20px rgba(0, 0, 0, .45);
+            /* blur ke dalam objek */
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2em;
+            gap: 3em;
+        }
+
+        .empat {
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, .45), 
+                        -10px -10px 10px rgba(255, 0, 0, .45)
+        }
+
+        .lima {
+            width: 300px;
+            height: 300px;
+            background-color: blueviolet;
+            box-shadow: 0 0 0 5px green,
+                    0 0 0 10px yellow, 
+                    0 0 0 15px grey;
+            border-radius: 50%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="pertama"></div>
+        <div class="kedua"></div>
+        <div class="ketiga"></div>
+    </nav>
+   <section>
+        <div class="empat"></div>
+        <div class="lima"></div>
+   </section>
+</body>
+</html>

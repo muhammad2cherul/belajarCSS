@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macam-Macam Filter</title>
+    <style>
+        body {
+            text-align: center;
+        
+        }
+        /* properti image css3 :
+            
+            filter: blur(10px);
+                    brightness( asngka / % ); semakin bertambah semakin cerah sebaliknya jadi hitam
+                    contrast(angka / % );   semakin besar semakin kontras warnanya sebaliknya jadi hitam
+                    saturate(angka / % );   semakin besar semakin keluar warnanya sebaliknya jadi abu-abu
+                    grayscale(angka / % );  semakin besar  % semakin abu-abu
+                    sepia( angka /  % );    semakin besar semakin kuning
+                    hue-rotate(deg);        mengubah warna dengan memutar roda warna
+                    invert( angka / %);     membalik jadi seperti efek sharingan
+                    opacity( angka / % );   transparan
+                    drop-shadow(sama seperti box-shadow); bisa untuk gambar dan teks
+            */
+        /* img {
+            filter: drop-shadow(5px 5px 5px black) ;
+        } */
+
+        /* h1 {
+            filter: drop-shadow(5px 5px 5px black) ;
+        } */
+/* 
+        img {
+            /* box-shadow: (5px 5px 5px black) ; */
+            /* filter: drop-shadow(5px 5px 50px black) ; */
+        
+        img {
+            filter: blur(10px) grayscale(1);
+            transition: 2s;
+        }
+        img:hover {
+            filter: blur(0px) grayscale(0);
+        }
+        
+    </style>
+</head>
+<body>
+     <img src="../../Web Pribadi/laman tautan pribadi/gambar/dwi.jpg" alt="gambar">  
+     <!-- <h1>Muhammad Dwi</h1> -->
+     <!-- <img src="../../CSS/Latihan 3/gambar/l2.png" alt="logo"> -->
+</body>
+</html>
