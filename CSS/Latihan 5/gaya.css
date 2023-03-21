@@ -1,0 +1,37 @@
+body {
+	background-image: url('../Latihan 3/gambar/l2.png');
+	background-size: 75px;
+	}
+.container {
+			width: 600px;
+			border: 1px solid black;
+			margin: auto;
+			padding: 5px;
+
+}
+.gallery {
+			width: 600px;
+			border: 1px solid black;
+			margin: auto;
+			padding: 5px;
+		}
+
+
+}
+p {
+	font: bold 17px calibri,sans-serif;
+	color: black;
+	text-align: justify;
+	padding: 5px;
+}
+.kotak {
+	width: 80px;
+	height: 80px;
+	background-color: darkgrey;
+	text-align: center;
+	line-height: 80px;
+	display: inline-block;
+	margin: auto;
+	margin-right: 2px;
+	float: left;
+}

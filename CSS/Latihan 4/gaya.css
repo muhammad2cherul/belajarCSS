@@ -1,0 +1,19 @@
+body	{ 
+			font-family: calibri;
+ 			
+ 		}
+h1, h2 	{color: green;}
+h2		{font-style: arial:;}
+ul li a { color: orange; }
+ol li a { color: red; }
+#p1 {color: red;}
+.p2 {color: purple;}
+.cetak-tebal {font-weight: bold;}
+p.cetak-tebal { font-size: 20px; }
+/*selector complex gunakan element html, kalau tidak bisa  pakai class, jangan pakai id karena berat*/
+body {
+	background-color: lightblue;
+		background-image: url('../Latihan 3/gambar/p1.png');
+		background-repeat: no-repeat;
+		background-position: top right;
+}
